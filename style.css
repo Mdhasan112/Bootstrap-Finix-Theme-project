@@ -4,3 +4,70 @@ body,p,span{
 h1,h2,h3,h4,h5, a{
     font-family: 'Rubik', sans-serif;
 }
+
+/* custom css style */
+.btn-primary{
+    background-color: red !important;
+    border-color: red;
+    padding: 12px 12px;
+    font-size: 16px;
+
+    position: relative;
+    z-index: 1;
+}
+.btn-primary::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: black;
+    border-color: black;
+    transition: .3s;
+
+    z-index: -1;
+}
+.btn-primary:hover::after{
+    width: 100%;
+}
+
+/* menu */
+ul.our-primary-menu{}
+ul.our-primary-menu li{}
+ul.our-primary-menu a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-weight: 400;
+    padding: 10px 12px;
+    font-size: 18px;
+}
+ul.our-primary-menu a:hover{}
+
+.header-info{}
+.header-search{
+    width: 60px;
+    font-size: 23px;
+    text-align: center;
+    margin-right: 20px;
+    border-right: 1px solid lightgrey;
+}
+.header-call-info{
+    width: 220px;
+}
+.header-call-icon{
+    font-size: 25px;
+    color: red;
+    text-align: center;
+}
+.header-call-info span{
+    font-size: 18px;
+}
+.header-call-info a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+}
+.header-button a{}
