@@ -1,101 +1,78 @@
-body,p,span{
+body, p, span{
     font-family: 'Roboto', sans-serif;
 }
-h1,h2,h3,h4,h5, a{
+h1, h2, h3, h4, h5, a{
     font-family: 'Rubik', sans-serif;
 }
-
 /* custom css style */
-.btn-primary{
-    background-color: red !important;
-    border-color: red;
-    padding: 12px 12px;
-    font-size: 16px;
+.main-menu .container-fluid{
+    max-width: 1280px;
+}
+body .btn-primary{
+    background-color: #e73c3e !important;
+    border-color: #e73c3e;
+    padding: 10px 20px;
+    font-size: 18px;
 
     position: relative;
     z-index: 1;
 }
-.btn-primary::after{
+body .btn-primary::after{
     content: "";
     position: absolute;
     left: 0;
     top: 0;
     width: 0;
     height: 100%;
-    background-color: black;
-    border-color: black;
-    transition: .3s;
+    background-color: #111;
+    border-color: #111;
 
     z-index: -1;
+    transition: .3s;
 }
-.btn-primary:hover::after{
+body .btn-primary:hover::after{
     width: 100%;
+    background-color: #e73c3e;
+    border-color: #e73c3e;
 }
 
 /* menu */
 ul.our-primary-menu{}
 ul.our-primary-menu li{}
-ul.our-primary-menu a{
+ul.our-primary-menu li a{
     text-decoration: none;
     display: inline-block;
+    font-size: 17px;
+    font-weight: 500;
     color: black;
-    font-weight: 400;
-    padding: 10px 12px;
-    font-size: 18px;
+    padding: 10px 15px;
 }
-
-
-/* dropdown menu */
-ul.our-primary-menu li{
-    position: relative;
-}
-ul.our-primary-menu li ul{
-    position: absolute;
-    width: 250px;
-    left: 0;
-    top: 160%;
-    background: #fafafa;
-    list-style: none;
-    padding: 10px;
-
-    opacity: 0;
-    visibility: hidden;
-    transition: ALL .4s ease-in-out;
-}
-ul.our-primary-menu li:hover ul{
-    opacity: 1;
-    visibility: visible;
-    top: 120%;
-}
-
-ul.our-primary-menu li ul li{
-    flex-direction: column;
-}
-ul.our-primary-menu li ul li a{}
+ul.our-primary-menu li a:hover{}
 
 .header-info{}
+
 .header-search{
-    width: 60px;
-    font-size: 23px;
+    width: 50px;
     text-align: center;
-    margin-right: 20px;
-    border-right: 1px solid lightgrey;
+    margin-right: 10px;
+    font-size: 20px;
+    border-right: 1px solid #ddd;
 }
-.header-call-info{
+.header-call{
     width: 220px;
 }
 .header-call-icon{
-    font-size: 25px;
-    color: red;
-    text-align: center;
+    font-size: 27px;
+    margin-left: 10px;
+    color: #e73c3e;
 }
-.header-call-info span{
-    font-size: 18px;
+.header-call-info{
+    font-size: 17px;
+    margin-right: 5px;
 }
 .header-call-info a{
     text-decoration: none;
-    font-size: 17px;
     color: black;
     font-weight: 500;
 }
-.header-button a{}
+.header-button{}
