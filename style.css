@@ -5,7 +5,7 @@ h1, h2, h3, h4, h5, a{
     font-family: 'Rubik', sans-serif;
 }
 /* custom css style */
-.main-menu .container-fluid{
+.main-menu .container-fluid, .slider-section .container-fluid{
     max-width: 1280px;
 }
 body .btn-primary{
@@ -108,3 +108,34 @@ ul.our-primary-menu li a:hover{}
     font-weight: 500;
 }
 .header-button{}
+
+/* slider/banner css */
+.slider-section{
+    background: url(images/main-banner2.jpg) no-repeat top center;
+    background-size: cover;
+}
+.slider-content-wrap{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.slider-content h6{
+    color: #e73c3e;
+}
+.slider-content h1{
+    font-size: 60px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.slider-content p{
+    font-weight: 400;
+    color: #606060;
+    font-size: 20px;
+}
+
+.header-social{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
