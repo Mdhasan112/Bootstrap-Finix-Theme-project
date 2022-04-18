@@ -139,3 +139,14 @@ ul.our-primary-menu li a:hover{}
     left: 0;
     bottom: 0;
 }
+.header-social ul{
+    list-style: none;
+}
+.header-social ul li{}
+.header-social ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 10px;
+    font-size: 15px;
+    color: #111;
+}
