@@ -7,6 +7,9 @@ h1, h2, h3, h4, h5, a{
 img{
     max-width: 100%;
 }
+.gry-bg{
+    background-color: #f9fafb;
+}
 /* custom css style */
 .main-menu .container-fluid, .slider-section .container-fluid{
     max-width: 1280px;
@@ -230,4 +233,92 @@ ul.our-primary-menu li a:hover{}
     margin-right: 10px;
     font-size: 20px;
     padding: 3px 0px;
+}
+
+/* class part-3 */
+/* why-people-us section */
+.features-items{
+    background: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+    transition: .5s;
+}
+.features-items::before{
+    content: "";
+    position: absolute;
+    top: -150px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 90%;
+    height: 65%;
+    background-color: #fdebeb;
+    border-radius: 50%
+}
+.features-items:hover{
+    transform: translateY(-12px);
+}
+.trns4{
+    margin-top: -23px;
+}
+
+.features-items h3{}
+.features-items p{}
+.ft-icon i{
+    font-size: 40px;
+    color: #e73c3e;
+    background: white;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    position: relative;
+    transition: .6s;
+}
+.features-items:hover .ft-icon i{
+    color: white;
+    background: #e73c3e;
+}
+.finix-text {
+    position: relative;
+}
+.play-animation-btn{
+    position: absolute;
+    bottom: 9%;
+    right: 30%;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    color: #e73c3e;
+    background: white;
+    font-size: 60px;
+    text-align: center;
+    line-height: 90px;
+}
+.play-animation-btn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background: #e73c3e;
+    animation: play-batton 1.6s ease-out infinite;
+}
+@keyframes play-batton{
+    0%, 30%{
+        transform: scale(0);
+        opacity: 1;
+    }
+    50%{
+        transform: scale(1.5);
+        opacity: .7;
+    }
+    100%{
+        transform: scale(2);
+        opacity: 0;
+    }
 }
