@@ -199,7 +199,7 @@ ul.our-primary-menu li a:hover{}
     color: #e73c3e;
 }
 .finix-text h2{
-    font-size: 40px;
+    font-size: 42px;
     font-weight: 400;
     padding: 10px 0px;
 }
@@ -216,8 +216,11 @@ ul.our-primary-menu li a:hover{}
 .finix-text ul{
     list-style: none;
     margin: 15px 0px;
+    padding-left: 0;
 }
-.finix-text ul li{}
+.finix-text ul li{
+    margin-left: 0;
+}
 .finix-text ul li::before{
     content: "\f00c";
     font-family: 'Font Awesome 5 free';
