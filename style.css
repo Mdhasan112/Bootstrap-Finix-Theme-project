@@ -435,3 +435,34 @@ ul.our-primary-menu li a:hover{}
     display: inline-block;
     margin-top: 3px;
 }
+
+/* Our company values section */
+
+.Our-company-values{}
+.Our-company-values h2{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.out-company-text{}
+.out-company-text .company-icon{
+    color: #e73c3e;
+    font-size: 35px;
+    margin-right: 35px;
+    width: 30px;
+}
+.out-company-text .company-text{
+    margin-bottom: 10px;
+}
+.out-company-text .company-text h3{
+    font-size: 27px;
+    font-weight: 450;
+}
+.out-company-text .company-text p{
+    color: #606060;
+}
+
+.company-img{
+    text-align: right;
+    margin-top: 100px;
+}
