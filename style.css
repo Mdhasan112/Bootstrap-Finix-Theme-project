@@ -322,3 +322,55 @@ ul.our-primary-menu li a:hover{}
         opacity: 0;
     }
 }
+
+/* apply-now-section */
+/* part 4 */
+.apply-now-section{}
+.apply-now-left-test{}
+.apply-now-left-test h2{}
+
+.step-timeline{}
+.step-timeline ul{
+    list-style: none;
+    position: relative;
+    padding-left: 55px;
+}
+.step-timeline ul::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 1px;
+    height: calc(100% - 100px);
+    background: #e73c3e;
+}
+.step-timeline ul li{
+    position: relative;
+}
+.step-timeline ul li::before{
+    content: attr(data-counter);
+    position: absolute;
+    left: -74px;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    background: #f9fafb;
+    border: 1px solid #e73c3e;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #e73c3e;
+    font-weight: 500;
+}
+.step-timeline ul li strong{
+    font-size: 25px;
+    font-weight: 500;
+    color: #111111;
+    display: block;
+    margin-bottom: 7px;
+}
+.step-timeline ul li p{
+    font-size: 17px;
+    color: #606060;
+    margin-bottom: 20px;
+}
