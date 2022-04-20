@@ -346,6 +346,7 @@ ul.our-primary-menu li a:hover{}
 }
 .step-timeline ul li{
     position: relative;
+    padding: 5px;
 }
 .step-timeline ul li::before{
     content: attr(data-counter);
@@ -373,4 +374,29 @@ ul.our-primary-menu li a:hover{}
     font-size: 17px;
     color: #606060;
     margin-bottom: 20px;
+}
+
+.calcutating-rate{
+    background: #fdebeb;
+    padding: 20px;
+}
+.finix-text{}
+.finix-text h6{
+    color: #606060;
+}
+.finix-text h2{
+    color: #111111;
+    font-size: 37px;
+    font-weight: 500;
+}
+.group-form{}
+.group-form input{
+    padding: 10px 10px;
+}
+.group-form label{
+    display: block;
+    margin-bottom: 8px;
+}
+.group-form select{
+    padding: 10px 10px;
 }
