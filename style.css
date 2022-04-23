@@ -466,3 +466,22 @@ ul.our-primary-menu li a:hover{}
     text-align: right;
     margin-top: 100px;
 }
+
+/* testimonial-section */
+/* part-7 */
+.testimonial-section{}
+
+.testimonial-content{}
+.testimonial-content p{
+    font-size: 22px;
+}
+
+.testimonial-details{}
+.testimonial-details h5{
+    color: #e73c3e;
+}
+.testimonial-details p{
+    color: #606060;
+}
+
+.testimonial-img{}
