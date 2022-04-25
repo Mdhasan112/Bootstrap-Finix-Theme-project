@@ -559,3 +559,37 @@ ul.our-primary-menu li a:hover{}
     color: #606060;
     font-size: 17px;
 }
+
+/* .blog-section */
+.blog-iteam{}
+.blog-thumbnail{}
+.blog-thumbnail img{
+    max-width: 100%;
+}
+
+.blog-content{
+    padding: 20px 0px;
+}
+.blog-content p{
+    color: #e73c3e;
+}
+.blog-content h3 a{
+    text-decoration: none;
+    color: #111;
+    font-size: 25px;
+    font-weight: 500;
+}
+.blog-content a{
+    font-size: 17px;
+    text-decoration: none;
+    transition: .6s;
+    color: #111;
+}
+.blog-iteam:hover .blog-content a{
+    letter-spacing: 1.5px;
+    color: #e73c3e;
+}
+.blog-iteam:hover .blog-content h3 a{
+    letter-spacing: 0;
+    color: #111;
+}
