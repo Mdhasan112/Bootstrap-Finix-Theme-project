@@ -485,3 +485,77 @@ ul.our-primary-menu li a:hover{}
 }
 
 .testimonial-img{}
+
+/* team-member-section */
+.member-img{
+    position: relative;
+}
+.member-img img{
+    width: 100%;
+    height: auto;
+}
+.team-social{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.team-social ul{
+    text-align: center;
+    padding-left: 0px;
+}
+.team-social ul li{
+    display: inline-block;
+
+    transition: .5s;
+    transform: translateY(40px);
+    opacity: 0;
+    visibility: hidden;
+}
+.member-img:hover .team-social ul li{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.team-social ul li:nth-child(1){
+    transition-delay: .1s;
+}
+.team-social ul li:nth-child(2){
+    transition-delay: .2s;
+}
+.team-social ul li:nth-child(3){
+    transition-delay: .3s;
+}
+.team-social ul li:nth-child(4){
+    transition-delay: .4s;
+}
+
+
+.team-social ul li a{
+    display: block;
+    height: 40px;
+    width: 40px;
+    background: white;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #444;
+    transition: .4s;
+}
+.team-social ul li a:hover{
+    color: white;
+    background: #e73c3e;
+}
+
+.img-content{
+    margin-top: 20px;
+}
+.img-content h4{
+    color: #e73c3e;
+    font-size: 20px;
+    font-weight: 500;
+}
+.img-content p{
+    color: #606060;
+    font-size: 17px;
+}
