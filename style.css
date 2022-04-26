@@ -121,6 +121,7 @@ ul.our-primary-menu li a:hover{}
 .slider-section{
     background: url(images/main-banner2.jpg) no-repeat top center;
     background-size: cover;
+    background-attachment: fixed;
 }
 .slider-content-wrap{
     height: 100vh;
@@ -666,4 +667,24 @@ ul.our-primary-menu li a:hover{}
 }
 .footer-contact-item a{
     text-decoration: none;
+}
+
+/* other pase css */
+.bredcrump{
+    background: url(images/bg.jpg);
+    padding: 70px 0px;
+    background-repeat: no-repeat;
+    background-position: center 12%;
+    position: relative;
+    z-index: 1;
+}
+.bredcrump::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(218, 211, 211, .6);
+    z-index: -1;
 }
